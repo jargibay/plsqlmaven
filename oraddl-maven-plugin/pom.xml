@@ -3,8 +3,8 @@
 
     <parent>
             <groupId>com.google.code.plsqlmaven</groupId>
-            <artifactId>plsqlmaven</artifactId>
-            <version>1.12-SNAPSHOT</version>
+            <artifactId>plsql-maven-project</artifactId>
+            <version>1.12-JAM1</version>
     </parent>
 
 
@@ -23,12 +23,6 @@
         <artifactId>gmaven-mojo</artifactId>
         <version>1.0</version>
     </dependency>
-	<dependency>
-	  <groupId>com.oracle</groupId>
-	  <artifactId>ojdbc6</artifactId>
-	  <version>11.2.0.2.0</version>
-	  <scope>compile</scope>
-	</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
